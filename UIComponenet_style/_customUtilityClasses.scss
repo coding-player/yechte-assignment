@@ -1,0 +1,457 @@
+// cursors
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+// light bg
+.bg-primary-light {
+    background-color: lighten($primary, 30);
+}
+
+.bg-success-light {
+    background-color: lighten(#88c920, 35);
+}
+
+.bg-warning-light {
+    background-color: lighten($warning, 25);
+}
+
+.bg-danger-light {
+    background-color: lighten($danger, 30);
+}
+
+.bg-secondary-light {
+    background-color: lighten($secondary, 30);
+}
+
+// gradient bg 
+.bg-primary-gradient {
+    background: linear-gradient(45deg, #946FFA, #88AAFF) !important;
+}
+
+.bg-success-gradient {
+    background: linear-gradient(45deg, #129BD0, #5BD8CA) !important;
+}
+
+.bg-warning-gradient {
+    background: linear-gradient(45deg, #F2736C, #FBAF3A) !important;
+}
+
+.bg-danger-gradient {
+    background: linear-gradient(45deg, #FF719A, #FDB2AF) !important;
+}
+
+.bg-info-gradient {
+    background: linear-gradient(45deg, #129BD0, #88AAFF) !important;
+}
+
+// width classes
+.width-100 {
+    width: 100px !important;
+}
+
+.w-125 {
+    width: 125px !important;
+}
+
+.w-150 {
+    width: 150px !important;
+}
+
+.w-200 {
+    width: 200px !important;
+}
+
+.w-250 {
+    width: 250px !important;
+}
+
+.w-300 {
+    width: 300px !important;
+}
+
+// max width classes
+.mw-100 {
+    max-width: 100px !important;
+}
+
+.mw-150 {
+    max-width: 150px !important;
+}
+
+.mw-200 {
+    max-width: 200px !important;
+}
+
+.mw-225 {
+    max-width: 225px !important;
+}
+
+.mw-250 {
+    max-width: 250px !important;
+}
+
+.mw-300 {
+    max-width: 300px !important;
+}
+
+.h-200 {
+    height: 200px !important;
+}
+
+.h-250 {
+    height: 250px !important;
+}
+
+.h-300 {
+    height: 300px !important;
+}
+
+.h-350 {
+    height: 350px !important;
+}
+
+.h-440 {
+    height: 440px !important;
+}
+
+.height85px {
+    height: 85px;
+}
+
+// for positon absolute classes
+.t-0 {
+    top: 0px !important;
+}
+
+.l-0 {
+    left: 0px !important;
+}
+
+.r-0 {
+    right: 0px !important;
+}
+
+.b-0 {
+    bottom: 0px !important;
+}
+
+.t-5 {
+    top: 5px !important;
+}
+
+.l-5 {
+    left: 5px !important;
+}
+
+.r-5 {
+    right: 5px !important;
+}
+
+.b-5 {
+    bottom: 5px !important;
+}
+
+.t-10 {
+    top: 10px !important;
+}
+
+.l-10 {
+    left: 10px !important;
+}
+
+.r-10 {
+    right: 10px !important;
+}
+
+.b-10 {
+    bottom: 10px !important;
+}
+
+.t-15 {
+    top: 15px !important;
+}
+
+.l-15 {
+    left: 15px !important;
+}
+
+.r-15 {
+    right: 15px !important;
+}
+
+.b-15 {
+    bottom: 15px !important;
+}
+
+.t-20 {
+    top: 20px !important;
+}
+
+.l-20 {
+    left: 20px !important;
+}
+
+.r-20 {
+    right: 20px !important;
+}
+
+.b-20 {
+    bottom: 20px !important;
+}
+
+.t-25 {
+    top: 25px !important;
+}
+
+.l-25 {
+    left: 25px !important;
+}
+
+.r-25 {
+    right: 25px !important;
+}
+
+.b-25 {
+    bottom: 25px !important;
+}
+
+.t-30 {
+    top: 30px !important;
+}
+
+.l-30 {
+    left: 30px !important;
+}
+
+.r-30 {
+    right: 30px !important;
+}
+
+.b-30 {
+    bottom: 30px !important;
+}
+
+.t-35 {
+    top: 35px !important;
+}
+
+.l-35 {
+    left: 35px !important;
+}
+
+.r-35 {
+    right: 35px !important;
+}
+
+.b-35 {
+    bottom: 35px !important;
+}
+
+.t-40 {
+    top: 40px !important;
+}
+
+.l-40 {
+    left: 40px !important;
+}
+
+.r-40 {
+    right: 40px !important;
+}
+
+.b-40 {
+    bottom: 40px !important;
+}
+
+.t-45 {
+    top: 45px !important;
+}
+
+.l-45 {
+    left: 45px !important;
+}
+
+.r-45 {
+    right: 45px !important;
+}
+
+.b-45 {
+    bottom: 45px !important;
+}
+
+.t-50 {
+    top: 50px !important;
+}
+
+.l-50 {
+    left: 50px !important;
+}
+
+.r-50 {
+    right: 50px !important;
+}
+
+.b-50 {
+    bottom: 50px !important;
+}
+
+.border-top-primary {
+    border-top: 3px solid $primary !important;
+}
+
+// font size classes
+.font10px {
+    font-size: 10px !important;
+}
+
+.font16px {
+    font-size: 16px !important;
+}
+
+.font18px {
+    font-size: 18px !important;
+}
+
+// z-indexes
+.z-index1 {
+    z-index: 1 !important;
+}
+
+.z-index2 {
+    z-index: 2 !important;
+}
+
+.z-index3 {
+    z-index: 3 !important;
+}
+
+/// lines
+.hrLine {
+    width: 100%;
+    height: 1px;
+    background-color: #dee2e6;
+    border-radius: 3px;
+}
+
+// two line text truncate
+.twoline {
+    display: block;
+    /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: $font-size-base*$line-height-base*2;
+    /* Fallback for non-webkit */
+    // margin: 0 auto;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// three line text truncate
+.threeline {
+    display: block;
+    /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: $font-size-base*$line-height-base*3;
+    /* Fallback for non-webkit */
+    // margin: 0 auto;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// three line text truncate
+.fourline {
+    display: block;
+    /* Fallback for non-webkit */
+    display: -webkit-box;
+    height: $font-size-base*$line-height-base*4;
+    /* Fallback for non-webkit */
+    // margin: 0 auto;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+//// arrow collapsed icon
+.arrowIcon[aria-expanded="true"] .fa:before {
+    content: "\f107 ";
+    font-size: 18px;
+}
+
+.arrowIcon[aria-expanded="false"] .fa:before {
+    content: "\f105 ";
+    font-size: 18px;
+}
+
+//// arrow collapsed icon with background
+.arrowIconWithbgChange[aria-expanded="true"] {
+    background-color: $primary;
+    color: $white;
+}
+
+.arrowIconWithbgChange[aria-expanded="true"] .fa:before {
+    content: "\f106 ";
+    font-size: 18px;
+}
+
+.arrowIconWithbgChange[aria-expanded="false"] .fa:before {
+    content: "\f107 ";
+    font-size: 18px;
+}
+
+//// minus collapsed icon
+.minusIcon[aria-expanded="true"] .fa:before {
+    content: "\f068  ";
+}
+
+.minusIcon[aria-expanded="false"] .fa:before {
+    content: "\f067  ";
+}
+
+.font-display
+{
+    font-family: $font-playfair;
+}
+
+.font-400
+{
+    font-weight: 400 !important;
+}
+
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+   
+    .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+}
+  

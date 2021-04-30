@@ -1,0 +1,245 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+// Main Colors
+$primary: #7254df;
+$warning:#ff9823;
+$success:#00b899;
+$danger:#f5346b;
+$info: #129BD0;
+$secondary: #58595B;
+$white:#fff;
+$black:#000;
+$light:#f1f3f4;
+//font-family
+$font-playfair : "Playfair Display", Georgia, "Times New Roman", serif;
+
+// grid
+$grid-gutter-width: 25px;
+// Alerts
+$alert-border-radius: 0;
+$alert-border-width: 0;
+$breadcrumb-bg: $white;
+$input-focus-box-shadow: none;
+// font
+$font-family-base: 'Roboto',
+sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+// dropdown
+$dropdown-padding-y: 0;
+$dropdown-item-padding-y: 8px;
+$dropdown-item-padding-x: 15px;
+$dropdown-link-active-bg:$light;
+$dropdown-link-active-color: $primary;
+$dropdown-link-hover-color: $primary;
+$dropdown-link-hover-bg: $light;
+$dropdown-divider-margin-y: 0px;
+// input and buttons
+$input-height: 1.688rem;
+$input-btn-padding-y: .23rem;
+$input-btn-padding-x: .65rem;
+// small btn
+$btn-padding-y-sm: .25rem;
+$btn-padding-x-sm: .5rem;
+$btn-font-size-sm: 12px;
+$btn-line-height-sm: 1.5;
+// badges
+$badge-font-size: 11px;
+$badge-padding-y: 5px;
+$badge-padding-x: 8px;
+$border-radius: 3px;
+// spacer
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge( ( 6: ($spacer * 6), 7: ($spacer * 7), 8: ($spacer * 8), 9: ($spacer * 9), 10: ($spacer * 10)),
+$spacers);
+// sizes
+$sizes: () !default;
+$sizes: map-merge( ( 25: 25%, 50: 50%, 75: 75%, 100: 100%, auto: auto, 5:5%, 7:7%, 8:8%, 10:10%, 15:15%, 20:20%, 30:30%, 35:35%, 40:40%, 45:45%, 55:55%, 60:60%, 65:65%, 70:70%, 80:80%, 85:85%, 90:90%, 95:95%),
+$sizes);
+// heading
+$h1-font-size: 2.2rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.575rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 0.875rem;
+$h6-font-size: 0.875rem;
+// Cards
+$card-spacer-y: .45rem;
+$card-spacer-x: 0.9375rem;
+$card-border-color: #dee2e6;
+$card-cap-bg: $white;
+$card-border-radius: 5px;
+//links
+$link-hover-decoration: none;
+// table
+$table-cell-padding: .5rem;
+$table-cell-padding-sm: .3rem;
+// modal
+$modal-header-padding-y: 8px;
+$modal-header-padding-x: 15px;
+// breadcrumb
+$breadcrumb-divider: quote(">");
+$breadcrumb-padding-y: .55rem;
+$breadcrumb-padding-x: 1rem;
+$breadcrumb-item-padding: .6rem;
+$breadcrumb-active-color: $primary;
+@import "../scss/bootstrap.scss";
+@import '../UIComponenet_style/customUtilityClasses';
+@import '../UIComponenet_style/checkboxRadio';
+@import '../UIComponenet_style/tables';
+@import '../UIComponenet_style/buttons';
+@import '../UIComponenet_style/scroll';
+@import '../UIComponenet_style/customcard';
+@import '../UIComponenet_style/badge';
+@import '../UIComponenet_style/modals';
+@import '../UIComponenet_style/navs';
+@import '../UIComponenet_style/notificationsUI';
+@import '../UIComponenet_style/switches';
+@import '../UIComponenet_style/datepicker';
+@import '../UIComponenet_style/multiselect';
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.bg-banner
+{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 500px;
+    @include media-breakpoint-down(xs) { height: 380px;}
+    .display-4
+    {
+      margin-top: 2rem;
+      font-size: 2.5rem;
+      @include media-breakpoint-down(xs) { font-size: 2rem; margin-top: 1rem;}
+      
+    }
+}
+
+.nav
+{
+    a
+    {
+
+      @include media-breakpoint-down(xs) {margin-right: 10px;}
+        color: #494949;
+        &.active
+        {
+            color: #7254df;
+            font-weight: 500;
+        }
+       
+    }
+}
+
+.tour-mn-pack
+{
+
+  .row
+  {
+     .col-md-6
+     {
+      @include media-breakpoint-down(xs) { padding: 1.2rem;}
+        &:nth-child(1)
+        {
+          margin-top: 3rem;
+          @include media-breakpoint-down(xs) { margin-top: 0rem;}
+          .tour-pack
+          {
+            &:nth-child(2)
+            {
+              @include media-breakpoint-down(xs) { margin-bottom: 0; }
+            }
+        }
+          
+         }
+
+     }
+  }
+ 
+.tour-pack
+{
+    margin-bottom: 2rem;
+    position: relative;
+    img
+    {
+        width: 430px;
+        @include media-breakpoint-down(md) { width: 280px; }
+        @include media-breakpoint-down(xs) { width: 100%; }
+       
+     }
+
+    figcaption
+    {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        background: $dark;
+        color: #fff;
+        width: 178px;
+        padding: 8px;
+        border-radius: 4px;
+        @include media-breakpoint-down(xs) 
+        {
+          top: 45%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        }
+        
+    }
+}
+
+.btn-all
+{
+  margin-right: 8em;
+}
+
+&.other-grid
+{
+  .tour-pack
+  {
+    margin-bottom: 1.5rem;
+    figcaption
+    {
+    right: 0;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: $white;
+    color: $dark;
+    box-shadow: 1px 2px 4px #00000045;
+     }
+    
+  }
+}
+
+}
+
+ 
+.cust-hr
+{
+  border-top: 2px solid $dark;
+  width: 110px;
+}
+
+.header {
+     border-bottom: 1px solid #e5e5e5;
+   .header-logo {
+    font-family: $font-playfair;
+    font-size: 2.25rem;
+    &:hover
+    {
+      text-decoration: none;
+    }
+  }
+
+}
+  
+ 

@@ -1,0 +1,27 @@
+.appDatepicker {
+    .form-group.hidden {
+        width: 0;
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    .custom-day {
+        text-align: center;
+        padding: 0.185rem 0.25rem;
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+    }
+    .custom-day.focused {
+        background-color: $light;
+    }
+    .custom-day.range,
+    .custom-day:hover {
+        background-color: $primary;
+        color: $white;
+    }
+    .custom-day.faded {
+        background-color: lighten($primary, 30);
+        color: $primary;
+    }
+}
